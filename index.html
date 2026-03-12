@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <!--Hola-->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi calculadora</title>
+  </head>
+
+  <body>
+    <h1>Universidad internacional del Ecuador</h1>
+    <div>
+        <blockquote>
+        <p>La universidad internacional del Ecuador es una de las mejores universidades del pais</p>
+        <cite>- Universidad internacional del Ecuador</cite>
+        </blockquote>
+      <h2>Facultad de ingenieria</h2>
+      <p>la facultad es bonita</p>
+      <div></div>
+      <blockquote>
+        <p>La facultad de ingenieria es una de las mejores facultades del pais</p>
+        <cite>- Estudiante de ingenieria</cite>
+      </blockquote>
+      <h2>Facultad de Medicina</h2>
+      <p>La facultad de medicina es <strong>excelente</strong></p>
+      <div>
+        <blockquote>
+        <p>La facultad de medicina es una de las mejores facultades del pais</p>
+        <cite>- Estudiante de medicina</cite>
+        </blockquote>
+      </div>
+      <h2>Facultad de Ciencias</h2>
+      <p>La facultad de ciencias es interesante</p>
+      <blockquote>
+        <p>La facultad de ciencias es una de las mejores facultades del pais</p>
+        <cite>- Estudiante de ciencias</cite>
+    </div>
+    <button id="mi-boton">culear al Gabo</button> <span id="numero-clics">0</span>
+
+<script>
+  const boton = document.getElementById("mi-boton");
+  const textoClics = document.getElementById("numero-clics");
+  
+  let contador = 0;
+
+  boton.addEventListener("click", function() {
+    contador = contador + 1;
+    textoClics.textContent = contador;
+  });
+</script>
+  </body>
+</html>
