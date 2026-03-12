@@ -1,0 +1,27 @@
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Dependencias
+package-lock.json
+
+# Build
+dist/
+build/
+
+# Archivos de sistema Mac
+.AppleDouble
+.LSOverride
